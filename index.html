@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio personal de Juan Cervantes. Desarrollo web, habilidades y proyectos.">
+  <title>Juan Cervantes | Portafolio personal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#inicio" aria-label="Ir al inicio">JC<span>.</span></a>
+
+    <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="main-nav">
+      =<span></span><span></span><span></span>
+    </button>
+
+    <nav class="main-nav" id="main-nav" aria-label="Navegación principal">
+      <a href="#inicio">Inicio</a>
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#experiencia">Trayectoria</a>
+      <a class="nav-contact" href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> PORTAFOLIO PERSONAL</p>
+        <div class="Nombre_foto">
+          <div class="nombre">
+            <p class="hero-greeting">Hola, soy</p>
+            <h1>Juan <span>Cervantes</span></h1>
+          </div>
+          <div class="foto"><img src="fotoSinFondo.png" alt="Juan Cervantes"></div>
+        </div>
+        <h2 id="titulo">Bachiller Profesional y Técnico en Informática</h2>
+        <p class="hero-description">
+          Creo que las buenas ideas merecen convertirse en experiencias digitales
+          funcionales, claras y cuidadas hasta el último detalle.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#proyectos">Ver proyectos <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#sobre-mi">Conocer más <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-note"><span class="status-dot"></span> Disponible para aprender y colaborar</div>
+      </div>
+
+      <div class="hero-visual" aria-label="Tarjeta decorativa de presentación">
+        <div class="visual-frame">
+          <div class="visual-monogram">JC.</div>
+          <div class="visual-caption">
+            <span>DISEÑO · TECNOLOGÍA · CREATIVIDAD</span>
+            <span class="caption-line"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="sobre-mi">
+      <div class="section-heading">
+        <p class="eyebrow">01 — PERFIL</p>
+        <h2>Un poco <span>sobre mí.</span></h2>
+      </div>
+      <div class="about-grid">
+        <p class="about-lead">Me interesa la tecnología y el desarrollo web, especialmente la creación de soluciones digitales que combinan funcionalidad, estética y facilidad de uso.</p>
+        <div class="about-detail">
+          <p>Me gusta aprender, explorar nuevas herramientas y transformar ideas en proyectos concretos. Este portafolio reúne una muestra de mis habilidades, mi formación y los trabajos que voy desarrollando.</p>
+          <p class="muted">Mi objetivo es seguir creciendo profesionalmente y participar en proyectos que aporten valor a las personas.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="habilidades">
+      <div class="section-heading">
+        <p class="eyebrow">02 — CONOCIMIENTOS</p>
+        <h2>Herramientas y <span>habilidades.</span></h2>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card">
+          <span class="skill-number">01</span>
+          <h3>Desarrollo web</h3>
+          <p>HTML · CSS · JavaScript</p>
+          <div class="skill-line"><span style="width: 45%"></span></div>
+        </article>
+        <article class="skill-card">
+          <span class="skill-number">02</span>
+          <h3>Herramientas</h3>
+          <p>Git · GitHub · Visual Studio Code</p>
+          <div class="skill-line"><span style="width: 35%"></span></div>
+        </article>
+        <article class="skill-card">
+          <span class="skill-number">03</span>
+          <h3>Habilidades personales</h3>
+          <p>Creatividad · Organización · Comunicación</p>
+          <div class="skill-line"><span style="width: 90%"></span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="proyectos">
+      <div class="section-heading heading-with-note">
+        <div>
+          <p class="eyebrow">03 — TRABAJO SELECCIONADO</p>
+          <h2>Proyectos <span>destacados.</span></h2>
+        </div>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-art art-one"><span>01</span><div class="art-window"><i></i><i></i><i></i><b>ESTUDIO<br>CREATIVO</b></div></div>
+          <div class="project-info">
+            <div><p class="project-type">DISEÑO WEB</p><h3>Sitio web corporativo</h3></div>
+            <span class="project-arrow" aria-hidden="true">↗</span>
+          </div>
+          <p class="project-description">Página de presentación para una empresa, con información de servicios y navegación adaptable.</p>
+          <div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-art art-two"><span>02</span><div class="dashboard-art"><div></div><div></div><div></div><div></div></div></div>
+          <div class="project-info">
+            <div><p class="project-type">INTERFAZ</p><h3>Panel de control</h3></div>
+            <span class="project-arrow" aria-hidden="true">↗</span>
+          </div>
+          <p class="project-description">Propuesta de un panel visual para organizar información y consultar datos de forma sencilla.</p>
+          <div class="tag-list"><span>HTML</span><span>CSS Grid</span><span>JavaScript</span></div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-art art-three"><span>03</span><div class="landing-art"><small>IDEAS EN MOVIMIENTO</small><b>Diseña.<br>Construye.<br>Comparte.</b><i></i></div></div>
+          <div class="project-info">
+            <div><p class="project-type">EXPERIENCIA DIGITAL</p><h3>Página de aterrizaje</h3></div>
+            <span class="project-arrow" aria-hidden="true">↗</span>
+          </div>
+          <p class="project-description">Landing page conceptual con una llamada a la acción y una estructura centrada en el usuario.</p>
+          <div class="tag-list"><span>Responsive</span><span>CSS</span><span>UX básico</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section journey-section" id="experiencia">
+      <div class="section-heading">
+        <p class="eyebrow">04 — TRAYECTORIA</p>
+        <h2>Formación y <span>experiencia.</span></h2>
+      </div>
+      <div class="journey-grid">
+        <div>
+          <h3 class="column-title">Formación</h3>
+          <article class="timeline-item">
+            <span class="timeline-date">EN CURSO</span>
+            <h4>Formación en desarrollo web</h4>
+            <p>Estudios y aprendizaje continuo de tecnologías web.</p>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-date">COMPLEMENTARIO</span>
+            <h4>Cursos y aprendizaje autónomo</h4>
+            <p>Práctica mediante ejercicios, documentación y proyectos personales.</p>
+          </article>
+        </div>
+        <div>
+          <h3 class="column-title">Experiencia relevante</h3>
+          <article class="timeline-item">
+            <span class="timeline-date">PROYECTOS PERSONALES</span>
+            <h4>Desarrollo de sitios web</h4>
+            <p>Creación de páginas de práctica para aplicar estructura, estilos e interactividad.</p>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-date">COLABORACIÓN</span>
+            <h4>Trabajo en equipo</h4>
+            <p>Participación en actividades académicas o colaborativas. Completar con experiencias reales.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contacto">
+      <div class="section contact-inner">
+        <p class="eyebrow">05 — HABLEMOS</p>
+        <h2>¿Tienes una idea<br>en <span>mente?</span></h2>
+        <p class="contact-copy">Estoy abierto a conversar sobre proyectos, colaboraciones y oportunidades de aprendizaje.</p>
+        <a class="button button-light" href="cesjj09@gmail.com">cesjj09@gmail.com <span aria-hidden="true">↗</span></a>
+        <div class="social-links">
+          <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="logo" href="#inicio">JC<span>.</span></a>
+    <p>Diseñado y desarrollado con intención.</p>
+    <p>© <span id="year"></span> Juan Cervantes</p>
+  </footer>
+
+  <button class="back-to-top" type="button" aria-label="Volver arriba">↑</button>
+</body>
+</html>
